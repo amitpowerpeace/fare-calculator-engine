@@ -13,18 +13,18 @@ This project implements a fare calculation and capping system for a public trans
 
 fare-calculator-engine/
 ├── src/
-│   ├── config/           # Configuration for fare and cap rules
-│   ├── models/           # TypeScript interfaces for data structures (Journey, FareRule, CapRule, etc.)
-│   ├── services/         # Core business logic for fare calculation (FareCalculator) and capping (FareCapper)
-│   ├── utils/            # Helper functions for date/time manipulation and zone mapping
-│   └── app.ts            # Main application entry point for processing journey data from a file
-├── tests/                # Comprehensive unit tests for core logic
-├── data/                 # Example input data files (journeys.json)
-├── package.json          # Project dependencies and scripts
-├── tsconfig.json         # TypeScript compiler configuration
-├── jest.config.js        # Jest test runner configuration
-├── .gitignore            # Git ignore rules
-└── README.md             # Project documentation
+│ ├── config/ # Configuration for fare and cap rules
+│ ├── models/ # TypeScript interfaces for data structures (Journey, FareRule, CapRule, etc.)
+│ ├── services/ # Core business logic for fare calculation (FareCalculator) and capping (FareCapper)
+│ ├── utils/ # Helper functions for date/time manipulation and zone mapping
+│ └── app.ts # Main application entry point for processing journey data from a file
+├── tests/ # Comprehensive unit tests for core logic
+├── data/ # Example input data files (journeys.json)
+├── package.json # Project dependencies and scripts
+├── tsconfig.json # TypeScript compiler configuration
+├── jest.config.js # Jest test runner configuration
+├── .gitignore # Git ignore rules
+└── README.md # Project documentation
 
 ## Setup and Installation
 
@@ -55,3 +55,21 @@ The `app.ts` script reads journey data from `./data/journeys.json` by default.
 
 ```bash
 npm start
+
+### Run the test suite using:
+npm run test
+
+### Modifying Journey Data for Testing
+You can customize the journey data to simulate different travel scenarios and see how the fare calculation logic works.
+
+Steps:
+Navigate to the data folder.
+
+Open the file: journeys.json.
+
+Modify, add, or remove journey records as needed.
+
+### Output:
+The fare calculation results will be displayed directly in the terminal console.
+
+You will see a detailed summary including individual journey fares, daily totals, and weekly caps applied (if any).
