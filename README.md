@@ -1,6 +1,6 @@
 # Fare Calculation Engine and Capping System
 
-This project implements a fare calculation and capping system for a public transportation service, adhering to the specifications provided by Online Filings Ltd. The solution is developed in TypeScript, focusing on clean architecture, maintainability, and robust logic, without relying on external frameworks like REST APIs, databases, or GUI components.
+This project implements a fare calculation and capping system for a public transportation service,The solution is developed in TypeScript, focusing on clean architecture, maintainability, and robust logic, without relying on external frameworks like REST APIs, databases, or GUI components.
 
 ## Features
 
