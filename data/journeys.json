@@ -1,0 +1,34 @@
+[
+  { "id": "mon_0800_1_2", "timestamp": "2025-08-04T08:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "mon_0900_1_2", "timestamp": "2025-08-04T09:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "mon_1700_1_2", "timestamp": "2025-08-04T17:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "mon_1800_1_2", "timestamp": "2025-08-04T18:00:00", "fromZone": 1, "toZone": 2 },
+
+  { "id": "tue_0800_1_2", "timestamp": "2025-08-05T08:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "tue_0900_1_2", "timestamp": "2025-08-05T09:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "tue_1700_1_2", "timestamp": "2025-08-05T17:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "tue_1800_1_2", "timestamp": "2025-08-05T18:00:00", "fromZone": 1, "toZone": 2 },
+
+  { "id": "wed_0800_1_2", "timestamp": "2025-08-06T08:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "wed_0900_1_2", "timestamp": "2025-08-06T09:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "wed_1700_1_2", "timestamp": "2025-08-06T17:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "wed_1800_1_2", "timestamp": "2025-08-06T18:00:00", "fromZone": 1, "toZone": 2 },
+
+  { "id": "thu_0800_1_2", "timestamp": "2025-08-07T08:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "thu_0900_1_2", "timestamp": "2025-08-07T09:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "thu_1700_1_2", "timestamp": "2025-08-07T17:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "thu_1800_1_2", "timestamp": "2025-08-07T18:00:00", "fromZone": 1, "toZone": 2 },
+
+  { "id": "fri_0900_1_1", "timestamp": "2025-08-08T09:00:00", "fromZone": 1, "toZone": 1 },
+  { "id": "fri_1030_1_1", "timestamp": "2025-08-08T10:30:00", "fromZone": 1, "toZone": 1 },
+  { "id": "fri_1730_1_1", "timestamp": "2025-08-08T17:30:00", "fromZone": 1, "toZone": 1 },
+
+  { "id": "sat_0900_1_2", "timestamp": "2025-08-09T09:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "sat_1000_1_2", "timestamp": "2025-08-09T10:00:00", "fromZone": 1, "toZone": 2 },
+
+  { "id": "sun_0900_1_2", "timestamp": "2025-08-10T09:00:00", "fromZone": 1, "toZone": 2 },
+
+  { "id": "mon_next_0800_1_2", "timestamp": "2025-08-11T08:00:00", "fromZone": 1, "toZone": 2 },
+  { "id": "mon_next_0900_1_1", "timestamp": "2025-08-11T09:00:00", "fromZone": 1, "toZone": 1 },
+  { "id": "mon_next_1000_1_2", "timestamp": "2025-08-11T10:00:00", "fromZone": 1, "toZone": 2 }
+]

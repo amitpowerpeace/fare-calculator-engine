@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+   // "rootDir": "./src",
+    "outDir": "./dist",
+    "lib": ["esnext"], // Essential for modern JS features like Date methods
+    "types": ["node", "jest"], // Explicitly include Node and Jest types for development
+    "esModuleInterop": true, // Allows default imports from CommonJS modules
+    "allowSyntheticDefaultImports": true, // Complements esModuleInterop for cleaner imports
+
+    "strict": true, // Enables all strict type-checking options
+    // These are the lines that need to be explicitly set to false to resolve your current error:
+    "verbatimModuleSyntax": false, // <--- IMPORTANT: Set this to false
+    "isolatedModules": false,      // <--- IMPORTANT: Set this to false
+    "noUncheckedSideEffectImports": false, // <--- IMPORTANT: Set this to false
+
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true, // Skips type checking of declaration files, improves compilation speed
+    "moduleDetection": "auto", // Let TS infer module type
+    "sourceMap": false, // Generate sourcemap files for debugging
+    "declaration": false, // Generate .d.ts files for type declarations
+    "declarationMap": false // Generate sourcemaps for .d.ts files
+  },
+  "include": ["src/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules"]
+}
