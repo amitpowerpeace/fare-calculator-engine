@@ -1,4 +1,4 @@
-# Fare Calculation and Capping System
+# Fare Calculation Engine and Capping System
 
 This project implements a fare calculation and capping system for a public transportation service, adhering to the specifications provided by Online Filings Ltd. The solution is developed in TypeScript, focusing on clean architecture, maintainability, and robust logic, without relying on external frameworks like REST APIs, databases, or GUI components.
 
@@ -12,18 +12,31 @@ This project implements a fare calculation and capping system for a public trans
 ## Project Structure
 
 fare-calculator-engine/
+
 ├── src/
+
 │ ├── config/ # Configuration for fare and cap rules
+
 │ ├── models/ # TypeScript interfaces for data structures (Journey, FareRule, CapRule, etc.)
-│ ├── services/ # Core business logic for fare calculation (FareCalculator) and capping (FareCapper)
+
+│ ├── services/ # Core business logic for fare calculation (FareCalculator and FareCapper)
+
 │ ├── utils/ # Helper functions for date/time manipulation and zone mapping
+
 │ └── app.ts # Main application entry point for processing journey data from a file
+
 ├── tests/ # Comprehensive unit tests for core logic
+
 ├── data/ # Example input data files (journeys.json)
+
 ├── package.json # Project dependencies and scripts
+
 ├── tsconfig.json # TypeScript compiler configuration
+
 ├── jest.config.js # Jest test runner configuration
+
 ├── .gitignore # Git ignore rules
+
 └── README.md # Project documentation
 
 ## Setup and Installation
@@ -47,7 +60,7 @@ fare-calculator-engine/
     npm run build
     ```
 
-## How to Run
+## How to Run and Test
 
 ### Run the application with default input
 
